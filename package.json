@@ -1,0 +1,23 @@
+{
+  "name": "hbg-io-lambda-api",
+  "version": "0.0.1",
+  "description": "Testing AWS Lambda",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "aws-sdk": "^2.609.0",
+    "jest": "^25.1.0",
+    "serverless-bundle": "^1.2.5",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.12.1",
+    "uuid": "^3.4.0"
+  }
+}
