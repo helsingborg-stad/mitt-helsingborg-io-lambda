@@ -6,30 +6,30 @@
 - Python with PIP
 
 ## Setup
-# Homebrew on macOS
+### Homebrew on macOS
 ```
 brew install awscli
 ```
 
-# Using Pip on Linux, macOS or Unix by running:
+### Using Pip on Linux, macOS or Unix by running:
 ```
 sudo pip install awscli
 ```
 
-# Set up the Serverless Framework
+### Set up the Serverless Framework
 Install Serverless globally.
 ```
 npm install serverless -g
 ```
 
-# Lambda app
+### Lambda app
 ```
 git clone https://github.com/helsingborg/mitt-helsingborg-io-lambda
 cd mitt-helsingborg-io-lambda
 npm install
 ```
 
-# Add your access key to AWS CLI
+### Add your access key to AWS CLI
 It should look something like this:
 * Access key ID AKIAIOSFODNN7EXAMPLE
 * Secret access key wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
