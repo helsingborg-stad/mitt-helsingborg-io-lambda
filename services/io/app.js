@@ -1,6 +1,6 @@
-import { success } from './libs/response-lib';
+import { success } from '../../libs/response-lib';
 
-export async function main(event, context) {
+export function index(event, context) {
   return success({
     jsonapi: {
       version: '1.0',
