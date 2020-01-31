@@ -35,7 +35,7 @@ npm install serverless -g
 
 ```
 git clone https://github.com/helsingborg/mitt-helsingborg-io-lambda
-cd mitt-helsingborg-io-lambda
+cd mitt-helsingborg-io-lambda/services/io
 npm install
 ```
 
@@ -55,7 +55,7 @@ aws configure
 ## Test local - get
 
 ```
-serverless invoke local --function get
+serverless invoke local --function app
 ```
 
 ## Deploy
