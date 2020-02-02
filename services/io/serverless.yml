@@ -1,10 +1,9 @@
 service: io-api
 
 plugins:
-  - serverless-bundle # Package our functions with Webpack
+  - serverless-bundle
   - serverless-offline
   - serverless-dotenv-plugin
-  # - serverless-plugin-reducer
 
 custom: ${file(../../serverless.common.yml):custom}
 
@@ -15,7 +14,7 @@ provider:
   name: aws
   runtime: nodejs10.x
   stage: dev
-  region: eu-north-1
+  region: ${self:custom.region}
 
   environment:
     stage: ${self:custom.stage}
