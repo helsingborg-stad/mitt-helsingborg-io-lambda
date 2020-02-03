@@ -8,6 +8,6 @@ function buildResponse(statusCode, body) {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Credentials': true,
     },
-    body: JSON.stringify(body),
+    body: JSON.parse(JSON.stringify(body)),
   };
 }
