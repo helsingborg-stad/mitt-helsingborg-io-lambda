@@ -20,7 +20,6 @@ const axiosClient = axios.create({
 const createErrorResponse = async (error, res) => {
   logger.info(error.status);
   logger.info(error.data);
-  console.log(error);
   const serializedData = await jsonapi.serializer.serializeError(error);
   return res.status(error.status).json(serializedData);
 };
